@@ -1,0 +1,67 @@
+# emacs files
+auto/
+
+# deploy
+/deploy-boaz
+
+
+# auxiliary files for latex
+*.aux
+*.fdb_latexmk
+*.log
+*.fls
+*.out
+*.bbl
+*.blg
+*.synctex.gz
+*.pygtex
+*.pyg
+# *.jar
+
+# vim files
+*.swp
+
+# generated text files
+html/lec*.html
+html/index*.html
+latex-book/lec*.tex
+latex-handout/lec*.tex
+transformed/index.md
+transformed/lec*.md
+toc/lec*.html
+public/*.html
+
+
+# pdf files
+pdf-handout/*.pdf
+pdf-handout-split/*.pdf
+pdf-book/*.pdf
+latex-book/lnotes_book.pdf
+latex-book/_minted-lnotes_book
+
+
+# ignore assets
+/assets/
+
+# ignore ipython nb checkpoints
+/figure/.ipynb_checkpoints/
+/code/.ipynb_checkpoints
+
+# node modules
+node_modules/
+
+# wip
+/html-svg/
+
+# public
+/public/
+*.md~
+/bib/pandoc.bib-save-*
+
+# misc
+/pandoc-sample.zip
+/lein-install-windows.txt
+/pdf-handout-split/
+/slides/deploy
+
+.DS_Store
