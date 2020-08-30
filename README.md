@@ -1,7 +1,16 @@
 # tcscode
-Supplementary code for Introduction to Theoretical Computer Science book.
+
+Supplementary code for Introduction to Theoretical Computer Science book:
+
+* [Chapter 0: Introduction](https://nbviewer.jupyter.org/github/boazbk/tcscode/blob/master/chap_01_introduction.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/boazbk/tcscode/blob/master/chap_01_introduction.ipynb)
 
 Use [https://nbviewer.jupyter.org/github/boazbk/tcscode/tree/master/](https://nbviewer.jupyter.org/github/boazbk/tcscode/tree/master/) to view all the notebooks in a static version.
-Use [https://mybinder.org/v2/gh/boazbk/tcscode/master](https://mybinder.org/v2/gh/boazbk/tcscode/master) to view a live version on binder.
 
-This repository should eventually contain all the supplamentary code for the book. At the moment you can see [this older repository](https://github.com/boazbk/nandnotebooks) for prior versions of the code.
+
+
+
+
+
+
+See also [version on mybinder](https://mybinder.org/v2/gh/boazbk/tcscode/master).
+
