@@ -1,0 +1,19 @@
+digraph {
+	graph [size="12,12"]
+	node [align=left fontsize=12 height=0.2 ranksep=0.1 shape=box style=filled]
+	<MulBackward0 object at 0x7fa1902f9f00> [label=<MulBackward0> fillcolor=""]
+	<LogBackward0 object at 0x7fa180e766e0> [label=<LogBackward0> fillcolor=""]
+	<MulBackward0 object at 0x7fa180e759c0> [label=<MulBackward0> fillcolor=""]
+	<AccumulateGrad object at 0x7fa180e75360> [label=<AccumulateGrad> fillcolor=green]
+	<MulBackward0 object at 0x7fa180e759c0> -> <AccumulateGrad object at 0x7fa180e75360>
+	<AccumulateGrad object at 0x7fa180e775b0> [label=<AccumulateGrad> fillcolor=green]
+	<MulBackward0 object at 0x7fa180e759c0> -> <AccumulateGrad object at 0x7fa180e775b0>
+	<LogBackward0 object at 0x7fa180e766e0> -> <MulBackward0 object at 0x7fa180e759c0>
+	<MulBackward0 object at 0x7fa1902f9f00> -> <LogBackward0 object at 0x7fa180e766e0>
+	<AddBackward0 object at 0x7fa180e76200> [label=<AddBackward0> fillcolor=""]
+	<AccumulateGrad object at 0x7fa180e75360> [label=<AccumulateGrad> fillcolor=green]
+	<AddBackward0 object at 0x7fa180e76200> -> <AccumulateGrad object at 0x7fa180e75360>
+	<AccumulateGrad object at 0x7fa180e775b0> [label=<AccumulateGrad> fillcolor=green]
+	<AddBackward0 object at 0x7fa180e76200> -> <AccumulateGrad object at 0x7fa180e775b0>
+	<MulBackward0 object at 0x7fa1902f9f00> -> <AddBackward0 object at 0x7fa180e76200>
+}
